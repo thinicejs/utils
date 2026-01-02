@@ -1,0 +1,1 @@
+# @thinice/ensure-trailing-newline

@@ -21,7 +21,311 @@ importers:
         specifier: ^5.6.3
         version: 5.9.3
 
+  packages/capitalize:
+    dependencies:
+      '@thinice/is-empty-string':
+        specifier: workspace:*
+        version: link:../is-empty-string
+    devDependencies:
+      tsup:
+        specifier: ^8.3.5
+        version: 8.5.1(tsx@4.21.0)(typescript@5.9.3)
+      tsx:
+        specifier: ^4.19.2
+        version: 4.21.0
+      typescript:
+        specifier: ^5.6.3
+        version: 5.9.3
+
+  packages/chunk-array:
+    devDependencies:
+      tsup:
+        specifier: ^8.3.5
+        version: 8.5.1(tsx@4.21.0)(typescript@5.9.3)
+      tsx:
+        specifier: ^4.19.2
+        version: 4.21.0
+      typescript:
+        specifier: ^5.6.3
+        version: 5.9.3
+
+  packages/clamp:
+    devDependencies:
+      tsup:
+        specifier: ^8.3.5
+        version: 8.5.1(tsx@4.21.0)(typescript@5.9.3)
+      tsx:
+        specifier: ^4.19.2
+        version: 4.21.0
+      typescript:
+        specifier: ^5.6.3
+        version: 5.9.3
+
+  packages/dedupe-shallow:
+    devDependencies:
+      tsup:
+        specifier: ^8.3.5
+        version: 8.5.1(tsx@4.21.0)(typescript@5.9.3)
+      tsx:
+        specifier: ^4.19.2
+        version: 4.21.0
+      typescript:
+        specifier: ^5.6.3
+        version: 5.9.3
+
+  packages/ensure-dir-exists:
+    devDependencies:
+      tsup:
+        specifier: ^8.3.5
+        version: 8.5.1(tsx@4.21.0)(typescript@5.9.3)
+      tsx:
+        specifier: ^4.19.2
+        version: 4.21.0
+      typescript:
+        specifier: ^5.6.3
+        version: 5.9.3
+
+  packages/ensure-trailing-newline:
+    devDependencies:
+      tsup:
+        specifier: ^8.3.5
+        version: 8.5.1(tsx@4.21.0)(typescript@5.9.3)
+      tsx:
+        specifier: ^4.19.2
+        version: 4.21.0
+      typescript:
+        specifier: ^5.6.3
+        version: 5.9.3
+
+  packages/env-flag:
+    dependencies:
+      '@thinice/is-nullish':
+        specifier: workspace:*
+        version: link:../is-nullish
+    devDependencies:
+      tsup:
+        specifier: ^8.3.5
+        version: 8.5.1(tsx@4.21.0)(typescript@5.9.3)
+      tsx:
+        specifier: ^4.19.2
+        version: 4.21.0
+      typescript:
+        specifier: ^5.6.3
+        version: 5.9.3
+
+  packages/first-truthy:
+    devDependencies:
+      tsup:
+        specifier: ^8.3.5
+        version: 8.5.1(tsx@4.21.0)(typescript@5.9.3)
+      tsx:
+        specifier: ^4.19.2
+        version: 4.21.0
+      typescript:
+        specifier: ^5.6.3
+        version: 5.9.3
+
+  packages/flatten-shallow:
+    dependencies:
+      '@thinice/is-array':
+        specifier: workspace:*
+        version: link:../is-array
+    devDependencies:
+      tsup:
+        specifier: ^8.3.5
+        version: 8.5.1(tsx@4.21.0)(typescript@5.9.3)
+      tsx:
+        specifier: ^4.19.2
+        version: 4.21.0
+      typescript:
+        specifier: ^5.6.3
+        version: 5.9.3
+
   packages/has-own:
+    devDependencies:
+      tsup:
+        specifier: ^8.3.5
+        version: 8.5.1(tsx@4.21.0)(typescript@5.9.3)
+      tsx:
+        specifier: ^4.19.2
+        version: 4.21.0
+      typescript:
+        specifier: ^5.6.3
+        version: 5.9.3
+
+  packages/identity:
+    devDependencies:
+      tsup:
+        specifier: ^8.3.5
+        version: 8.5.1(tsx@4.21.0)(typescript@5.9.3)
+      tsx:
+        specifier: ^4.19.2
+        version: 4.21.0
+      typescript:
+        specifier: ^5.6.3
+        version: 5.9.3
+
+  packages/is-array:
+    devDependencies:
+      tsup:
+        specifier: ^8.3.5
+        version: 8.5.1(tsx@4.21.0)(typescript@5.9.3)
+      tsx:
+        specifier: ^4.19.2
+        version: 4.21.0
+      typescript:
+        specifier: ^5.6.3
+        version: 5.9.3
+
+  packages/is-boolean:
+    devDependencies:
+      tsup:
+        specifier: ^8.3.5
+        version: 8.5.1(tsx@4.21.0)(typescript@5.9.3)
+      tsx:
+        specifier: ^4.19.2
+        version: 4.21.0
+      typescript:
+        specifier: ^5.6.3
+        version: 5.9.3
+
+  packages/is-ci:
+    devDependencies:
+      tsup:
+        specifier: ^8.3.5
+        version: 8.5.1(tsx@4.21.0)(typescript@5.9.3)
+      tsx:
+        specifier: ^4.19.2
+        version: 4.21.0
+      typescript:
+        specifier: ^5.6.3
+        version: 5.9.3
+
+  packages/is-empty-string:
+    devDependencies:
+      tsup:
+        specifier: ^8.3.5
+        version: 8.5.1(tsx@4.21.0)(typescript@5.9.3)
+      tsx:
+        specifier: ^4.19.2
+        version: 4.21.0
+      typescript:
+        specifier: ^5.6.3
+        version: 5.9.3
+
+  packages/is-node:
+    devDependencies:
+      tsup:
+        specifier: ^8.3.5
+        version: 8.5.1(tsx@4.21.0)(typescript@5.9.3)
+      tsx:
+        specifier: ^4.19.2
+        version: 4.21.0
+      typescript:
+        specifier: ^5.6.3
+        version: 5.9.3
+
+  packages/is-non-empty-array:
+    dependencies:
+      '@thinice/is-array':
+        specifier: workspace:*
+        version: link:../is-array
+    devDependencies:
+      tsup:
+        specifier: ^8.3.5
+        version: 8.5.1(tsx@4.21.0)(typescript@5.9.3)
+      tsx:
+        specifier: ^4.19.2
+        version: 4.21.0
+      typescript:
+        specifier: ^5.6.3
+        version: 5.9.3
+
+  packages/is-not-array:
+    dependencies:
+      '@thinice/is-array':
+        specifier: workspace:*
+        version: link:../is-array
+    devDependencies:
+      tsup:
+        specifier: ^8.3.5
+        version: 8.5.1(tsx@4.21.0)(typescript@5.9.3)
+      tsx:
+        specifier: ^4.19.2
+        version: 4.21.0
+      typescript:
+        specifier: ^5.6.3
+        version: 5.9.3
+
+  packages/is-not-boolean:
+    dependencies:
+      '@thinice/is-boolean':
+        specifier: workspace:*
+        version: link:../is-boolean
+    devDependencies:
+      tsup:
+        specifier: ^8.3.5
+        version: 8.5.1(tsx@4.21.0)(typescript@5.9.3)
+      tsx:
+        specifier: ^4.19.2
+        version: 4.21.0
+      typescript:
+        specifier: ^5.6.3
+        version: 5.9.3
+
+  packages/is-not-empty-string:
+    dependencies:
+      '@thinice/is-empty-string':
+        specifier: workspace:*
+        version: link:../is-empty-string
+    devDependencies:
+      tsup:
+        specifier: ^8.3.5
+        version: 8.5.1(tsx@4.21.0)(typescript@5.9.3)
+      tsx:
+        specifier: ^4.19.2
+        version: 4.21.0
+      typescript:
+        specifier: ^5.6.3
+        version: 5.9.3
+
+  packages/is-not-nullish:
+    dependencies:
+      '@thinice/is-nullish':
+        specifier: workspace:*
+        version: link:../is-nullish
+    devDependencies:
+      tsup:
+        specifier: ^8.3.5
+        version: 8.5.1(tsx@4.21.0)(typescript@5.9.3)
+      tsx:
+        specifier: ^4.19.2
+        version: 4.21.0
+      typescript:
+        specifier: ^5.6.3
+        version: 5.9.3
+
+  packages/is-not-number:
+    dependencies:
+      '@thinice/is-number':
+        specifier: workspace:*
+        version: link:../is-number
+    devDependencies:
+      tsup:
+        specifier: ^8.3.5
+        version: 8.5.1(tsx@4.21.0)(typescript@5.9.3)
+      tsx:
+        specifier: ^4.19.2
+        version: 4.21.0
+      typescript:
+        specifier: ^5.6.3
+        version: 5.9.3
+
+  packages/is-not-string:
+    dependencies:
+      '@thinice/is-string':
+        specifier: workspace:*
+        version: link:../is-string
     devDependencies:
       tsup:
         specifier: ^8.3.5
@@ -45,7 +349,309 @@ importers:
         specifier: ^5.6.3
         version: 5.9.3
 
+  packages/is-number:
+    devDependencies:
+      tsup:
+        specifier: ^8.3.5
+        version: 8.5.1(tsx@4.21.0)(typescript@5.9.3)
+      tsx:
+        specifier: ^4.19.2
+        version: 4.21.0
+      typescript:
+        specifier: ^5.6.3
+        version: 5.9.3
+
   packages/is-string:
+    devDependencies:
+      tsup:
+        specifier: ^8.3.5
+        version: 8.5.1(tsx@4.21.0)(typescript@5.9.3)
+      tsx:
+        specifier: ^4.19.2
+        version: 4.21.0
+      typescript:
+        specifier: ^5.6.3
+        version: 5.9.3
+
+  packages/last-item:
+    devDependencies:
+      tsup:
+        specifier: ^8.3.5
+        version: 8.5.1(tsx@4.21.0)(typescript@5.9.3)
+      tsx:
+        specifier: ^4.19.2
+        version: 4.21.0
+      typescript:
+        specifier: ^5.6.3
+        version: 5.9.3
+
+  packages/lowercase-keys:
+    devDependencies:
+      tsup:
+        specifier: ^8.3.5
+        version: 8.5.1(tsx@4.21.0)(typescript@5.9.3)
+      tsx:
+        specifier: ^4.19.2
+        version: 4.21.0
+      typescript:
+        specifier: ^5.6.3
+        version: 5.9.3
+
+  packages/noop-promise:
+    devDependencies:
+      tsup:
+        specifier: ^8.3.5
+        version: 8.5.1(tsx@4.21.0)(typescript@5.9.3)
+      tsx:
+        specifier: ^4.19.2
+        version: 4.21.0
+      typescript:
+        specifier: ^5.6.3
+        version: 5.9.3
+
+  packages/normalize-line-endings:
+    devDependencies:
+      tsup:
+        specifier: ^8.3.5
+        version: 8.5.1(tsx@4.21.0)(typescript@5.9.3)
+      tsx:
+        specifier: ^4.19.2
+        version: 4.21.0
+      typescript:
+        specifier: ^5.6.3
+        version: 5.9.3
+
+  packages/omit-keys:
+    devDependencies:
+      tsup:
+        specifier: ^8.3.5
+        version: 8.5.1(tsx@4.21.0)(typescript@5.9.3)
+      tsx:
+        specifier: ^4.19.2
+        version: 4.21.0
+      typescript:
+        specifier: ^5.6.3
+        version: 5.9.3
+
+  packages/omit-nullish:
+    dependencies:
+      '@thinice/is-nullish':
+        specifier: workspace:*
+        version: link:../is-nullish
+    devDependencies:
+      tsup:
+        specifier: ^8.3.5
+        version: 8.5.1(tsx@4.21.0)(typescript@5.9.3)
+      tsx:
+        specifier: ^4.19.2
+        version: 4.21.0
+      typescript:
+        specifier: ^5.6.3
+        version: 5.9.3
+
+  packages/once-async:
+    devDependencies:
+      tsup:
+        specifier: ^8.3.5
+        version: 8.5.1(tsx@4.21.0)(typescript@5.9.3)
+      tsx:
+        specifier: ^4.19.2
+        version: 4.21.0
+      typescript:
+        specifier: ^5.6.3
+        version: 5.9.3
+
+  packages/pick-defined:
+    devDependencies:
+      tsup:
+        specifier: ^8.3.5
+        version: 8.5.1(tsx@4.21.0)(typescript@5.9.3)
+      tsx:
+        specifier: ^4.19.2
+        version: 4.21.0
+      typescript:
+        specifier: ^5.6.3
+        version: 5.9.3
+
+  packages/pick-keys:
+    devDependencies:
+      tsup:
+        specifier: ^8.3.5
+        version: 8.5.1(tsx@4.21.0)(typescript@5.9.3)
+      tsx:
+        specifier: ^4.19.2
+        version: 4.21.0
+      typescript:
+        specifier: ^5.6.3
+        version: 5.9.3
+
+  packages/read-file-if-exists:
+    devDependencies:
+      tsup:
+        specifier: ^8.3.5
+        version: 8.5.1(tsx@4.21.0)(typescript@5.9.3)
+      tsx:
+        specifier: ^4.19.2
+        version: 4.21.0
+      typescript:
+        specifier: ^5.6.3
+        version: 5.9.3
+
+  packages/retry:
+    dependencies:
+      '@thinice/sleep-ms':
+        specifier: workspace:*
+        version: link:../sleep-ms
+      '@thinice/to-string':
+        specifier: workspace:*
+        version: link:../to-string
+    devDependencies:
+      tsup:
+        specifier: ^8.3.5
+        version: 8.5.1(tsx@4.21.0)(typescript@5.9.3)
+      tsx:
+        specifier: ^4.19.2
+        version: 4.21.0
+      typescript:
+        specifier: ^5.6.3
+        version: 5.9.3
+
+  packages/safe-json-parse:
+    devDependencies:
+      tsup:
+        specifier: ^8.3.5
+        version: 8.5.1(tsx@4.21.0)(typescript@5.9.3)
+      tsx:
+        specifier: ^4.19.2
+        version: 4.21.0
+      typescript:
+        specifier: ^5.6.3
+        version: 5.9.3
+
+  packages/safe-trim:
+    dependencies:
+      '@thinice/is-string':
+        specifier: workspace:*
+        version: link:../is-string
+    devDependencies:
+      tsup:
+        specifier: ^8.3.5
+        version: 8.5.1(tsx@4.21.0)(typescript@5.9.3)
+      tsx:
+        specifier: ^4.19.2
+        version: 4.21.0
+      typescript:
+        specifier: ^5.6.3
+        version: 5.9.3
+
+  packages/shallow-clone:
+    dependencies:
+      '@thinice/is-array':
+        specifier: workspace:*
+        version: link:../is-array
+    devDependencies:
+      tsup:
+        specifier: ^8.3.5
+        version: 8.5.1(tsx@4.21.0)(typescript@5.9.3)
+      tsx:
+        specifier: ^4.19.2
+        version: 4.21.0
+      typescript:
+        specifier: ^5.6.3
+        version: 5.9.3
+
+  packages/sleep-ms:
+    devDependencies:
+      tsup:
+        specifier: ^8.3.5
+        version: 8.5.1(tsx@4.21.0)(typescript@5.9.3)
+      tsx:
+        specifier: ^4.19.2
+        version: 4.21.0
+      typescript:
+        specifier: ^5.6.3
+        version: 5.9.3
+
+  packages/stable-object-keys:
+    devDependencies:
+      tsup:
+        specifier: ^8.3.5
+        version: 8.5.1(tsx@4.21.0)(typescript@5.9.3)
+      tsx:
+        specifier: ^4.19.2
+        version: 4.21.0
+      typescript:
+        specifier: ^5.6.3
+        version: 5.9.3
+
+  packages/to-float:
+    dependencies:
+      '@thinice/is-nullish':
+        specifier: workspace:*
+        version: link:../is-nullish
+      '@thinice/to-string':
+        specifier: workspace:*
+        version: link:../to-string
+    devDependencies:
+      tsup:
+        specifier: ^8.3.5
+        version: 8.5.1(tsx@4.21.0)(typescript@5.9.3)
+      tsx:
+        specifier: ^4.19.2
+        version: 4.21.0
+      typescript:
+        specifier: ^5.6.3
+        version: 5.9.3
+
+  packages/to-integer:
+    dependencies:
+      '@thinice/to-number':
+        specifier: workspace:*
+        version: link:../to-number
+    devDependencies:
+      tsup:
+        specifier: ^8.3.5
+        version: 8.5.1(tsx@4.21.0)(typescript@5.9.3)
+      tsx:
+        specifier: ^4.19.2
+        version: 4.21.0
+      typescript:
+        specifier: ^5.6.3
+        version: 5.9.3
+
+  packages/to-number:
+    dependencies:
+      '@thinice/is-nullish':
+        specifier: workspace:*
+        version: link:../is-nullish
+    devDependencies:
+      tsup:
+        specifier: ^8.3.5
+        version: 8.5.1(tsx@4.21.0)(typescript@5.9.3)
+      tsx:
+        specifier: ^4.19.2
+        version: 4.21.0
+      typescript:
+        specifier: ^5.6.3
+        version: 5.9.3
+
+  packages/to-string:
+    dependencies:
+      '@thinice/is-nullish':
+        specifier: workspace:*
+        version: link:../is-nullish
+    devDependencies:
+      tsup:
+        specifier: ^8.3.5
+        version: 8.5.1(tsx@4.21.0)(typescript@5.9.3)
+      tsx:
+        specifier: ^4.19.2
+        version: 4.21.0
+      typescript:
+        specifier: ^5.6.3
+        version: 5.9.3
+
+  packages/with-timeout:
     devDependencies:
       tsup:
         specifier: ^8.3.5
