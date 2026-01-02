@@ -1,6 +1,6 @@
 # @thinice/packages
 
-Small TypeScript utilities. You probably shouldn't depend on these, but you might anyway.
+Small TypeScript utilities. You shouldn't depend on these, but you might anyway.
 
 ## Versioning
 
